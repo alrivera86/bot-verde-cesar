@@ -15,7 +15,7 @@ export class CesarController {
 
   @Post()
   async createCesarEntry(@Body() body: CreateCesarDto): Promise<CesarDocument | object> {
-    const postDataCesar: CreateCesarDto = plainToInstance(CreateCesarDto, body);
+    const postDataCesar: CreateCesarDto = plainToInstance(CreateCesarDto, body, { enableImplicitConversion: true });
     if (body.token === undefined || body.token === null || body.token !== process.env.TOKEN) {
       throw new HttpException('UNAUTHORIZED', HttpStatus.UNAUTHORIZED);
     }
