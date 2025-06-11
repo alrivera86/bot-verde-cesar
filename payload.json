@@ -1,0 +1,20 @@
+{
+  "token": "supersecret123",
+  "attempt": 2,
+  "communityId": 1,
+  "lat": -33.4489,
+  "lon": -70.6693,
+  "volt": 12.6,
+  "dist": 15.4,
+  "dp": 0.85,
+  "qp": 0.72,
+  "d0": 0.01,
+  "dT": 25.3,
+  "qPV": 4.8,
+  "fr": 60,
+  "id_c": 23,
+  "id_P": 24,
+  "id_b": 25,
+  "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGNgYGD4DwABBAEA6Xqk9QAAAABJRU5ErkJggg=="
+}
+
