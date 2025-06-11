@@ -1,7 +1,7 @@
 /* eslint-disable max-classes-per-file */
 import { PartialType } from '@nestjs/mapped-types';
 import { IsNotEmpty, IsOptional } from 'class-validator';
-import { Type } from 'class-transformer';
+import { Type, Expose } from 'class-transformer';
 
 export class CreateCesarDto {
   @IsNotEmpty()
