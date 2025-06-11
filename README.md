@@ -34,3 +34,6 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 // trigger ok
+// trigger ok 2
+// trigger ok 2
+// trigger ok 2
