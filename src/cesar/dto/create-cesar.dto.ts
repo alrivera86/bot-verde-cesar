@@ -61,6 +61,7 @@ export class CreateCesarDto {
 
   @IsOptional()
   @Type(() => Number)
+  communityId?: number;
   signal: number;
 
   @IsOptional()
