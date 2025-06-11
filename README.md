@@ -37,3 +37,4 @@ $ npm run test:cov
 // trigger ok 2
 // trigger ok 2
 // trigger ok 2
+// se actualizo BD quiero validar como funciona
